@@ -29,7 +29,7 @@ int main(int argc, char *argv[]){
     bool my_robots_are_yellow = false;
     
     // the ip address need to be in the range 224.0.0.0 through 239.255.255.255
-    RoboCupSSLClient visionClient("224.5.23.2", 10020);
+    RoboCupSSLClient visionClient("224.0.0.1", 10020);
     visionClient.open(false);
 
     GrSim_Client commandClient("127.0.0.1", 20011);
